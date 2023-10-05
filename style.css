@@ -26,11 +26,13 @@ p {
 }
 
 .p-2 {
-  padding: 0 16px  0 0;
+  padding: 0 0 0 16px;
+  margin: 20px 0;
 }
 
 .aside_bar {
   display: flex;
+  flex-direction: column;
   align-items: start;
   justify-content: start;
 }
@@ -99,4 +101,10 @@ p {
 
 .nav-items{
   margin: 10px;
+}
+
+.footer {
+  margin: 160px 0 60px 0;
+  padding: 40px 0;
+  border-top: 1px solid black;
 }
