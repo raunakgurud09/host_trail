@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.color1 {
+  background-color:chartreuse ;
+}
+.color2 {
+  background-color:aqua ;
+}
+
+.logo {
+  font-weight: 800;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-1by4 {
+  width: 25%;
+}
+
+.w-3by4 {
+  width: 75%;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-items{
+  margin: 10px;
+}
